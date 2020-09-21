@@ -1,0 +1,55 @@
+/*navigation bar*/
+.nav-bar ul{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header{ 
+    background-color: lightblue;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 25px 0 palevioletred;;
+}
+li{
+    margin: 0 10px;
+    margin-left: 80px;
+}
+ul{
+    list-style: none;
+}
+/*body*/
+body {
+    height: 100vh;
+}
+main{
+    background-image: url("https://www.litmus.com/wp-content/uploads/2020/04/ultimate-guide-to-background-images-in-email.png");
+font-family: sans-serif;
+color: whitesmoke;
+}
+div.body{
+    padding: 30px;
+    height: 70vh;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+}
+/*Footer*/
+.footer{
+    background-color: lightcyan;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
